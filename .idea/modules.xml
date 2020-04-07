@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-SaveMyTrip.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-SaveMyTrip.iml" group="SaveMyTrip" />
+      <module fileurl="file://$PROJECT_DIR$/SaveMyTravel.iml" filepath="$PROJECT_DIR$/SaveMyTravel.iml" group="SaveMyTravel" />
+      <module fileurl="file://$PROJECT_DIR$/app/SaveMyTravel-app.iml" filepath="$PROJECT_DIR$/app/SaveMyTravel-app.iml" group="SaveMyTravel/app" />
       <module fileurl="file://$PROJECT_DIR$/SaveMyTrip.iml" filepath="$PROJECT_DIR$/SaveMyTrip.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/SaveMyTrip-app.iml" filepath="$PROJECT_DIR$/app/SaveMyTrip-app.iml" group="SaveMyTrip/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
