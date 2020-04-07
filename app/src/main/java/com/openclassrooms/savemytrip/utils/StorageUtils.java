@@ -2,6 +2,7 @@ package com.openclassrooms.savemytrip.utils;
 
 import android.content.Context;
 import android.os.Environment;
+
 import android.widget.Toast;
 
 import com.openclassrooms.savemytrip.R;
@@ -14,6 +15,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+
+
 
 /**
  * Created by Lamine MESSACI on 07/04/2020.
@@ -105,5 +108,10 @@ public class StorageUtils {
         String state = Environment.getExternalStorageState();
         return (Environment.MEDIA_MOUNTED.equals(state) || Environment.MEDIA_MOUNTED_READ_ONLY.equals(state));
     }
+
+//----------------------SHARE---------------------------------------//
+public static File getFileFromStorage(File rootDestination, Context context, String fileName, String folderName){
+    return createOrGetFile(rootDestination, fileName, folderName);
+}
 
 }
