@@ -36,4 +36,9 @@ dependencies {
 
     //EASY PERMISSIONS
     implementation 'pub.devrel:easypermissions:1.1.1'
+    //ROOM
+    implementation 'android.arch.persistence.room:runtime:1.0.0'
+    annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
+    //VIEW MODEL & LIVE DATA
+    implementation "android.arch.lifecycle:extensions:1.1.0"
 }
